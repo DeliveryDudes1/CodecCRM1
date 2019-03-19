@@ -1,0 +1,492 @@
+<ImportExportXml version="9.1.0.3043" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>SCSI_phase_1</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="SCSI_phase_1" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Phase 1 of requirements&#xA;Updated custom entities&#xA;Membership end date&#xA;CPD logs&#xA;SCI_Cat - new entity&#xA;1.0.0.3 - updated contact form for the portal." languagecode="1033" />
+    </Descriptions>
+    <Version>1.0.0.5</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>camelcasecrew</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="CamelCaseCrew" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ccc</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>80333</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="adx_invitation" behavior="2" />
+      <RootComponent type="1" schemaName="ccc_catagories" behavior="0" />
+      <RootComponent type="1" schemaName="ccc_course_attendee" behavior="0" />
+      <RootComponent type="1" schemaName="ccc_scsi_category" behavior="0" />
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="contract" behavior="1" />
+      <RootComponent type="1" schemaName="incident" behavior="2" />
+      <RootComponent type="1" schemaName="new_cpd" behavior="0" />
+      <RootComponent type="1" schemaName="new_membership" behavior="0" />
+      <RootComponent type="1" schemaName="opportunity" behavior="2" />
+      <RootComponent type="9" schemaName="ccc_statusoptions" behavior="0" />
+      <RootComponent type="29" id="{9374733e-f23d-e911-a96d-000d3ab1ab19}" behavior="0" />
+      <RootComponent type="29" id="{af822d4a-2a3f-e911-a96e-000d3ab42b3b}" behavior="0" />
+      <RootComponent type="29" id="{de0b8d3c-326a-4398-8a3f-b99948ce0039}" behavior="0" />
+      <RootComponent type="29" id="{fd186411-d745-e911-a971-000d3ab42969}" behavior="0" />
+      <RootComponent type="60" id="{01577962-7882-4ce2-9d69-0a4677c72c94}" behavior="0" />
+      <RootComponent type="60" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" behavior="0" />
+      <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" behavior="0" />
+      <RootComponent type="60" id="{17668827-a5cb-4fe2-ac2c-0e7e2b6fc751}" behavior="0" />
+      <RootComponent type="60" id="{2d62c696-ccb8-4bc2-96df-2aecb42988f8}" behavior="0" />
+      <RootComponent type="60" id="{54519d1a-ffe2-4917-aabf-a521636b2b06}" behavior="0" />
+      <RootComponent type="60" id="{670a4c4c-dc90-4a44-abf4-fdf57ec10863}" behavior="0" />
+      <RootComponent type="60" id="{84aa8c47-53e6-4ab0-b406-0c63ac42b3b3}" behavior="0" />
+      <RootComponent type="60" id="{b213ab73-df3e-4227-b320-97a3a8984214}" behavior="0" />
+      <RootComponent type="60" id="{d29d7028-ce85-4cad-bed7-50758c44c3e6}" behavior="0" />
+      <RootComponent type="60" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" behavior="0" />
+      <RootComponent type="60" id="{e3a2f15c-6b84-4dc3-be31-2b3f2ee0df0f}" behavior="0" />
+      <RootComponent type="60" id="{fa824541-3423-40d3-8efe-6c5fc8ba95fd}" behavior="0" />
+      <RootComponent type="61" schemaName="ccc_CpdHoursCompleted" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="0" type="1" schemaName="opportunity" displayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="contract" displayName="Contract" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="1" type="1" schemaName="contract" displayName="Contract" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="adx_invitation" displayName="Invitation" solution="MicrosoftCrmPortalBase (9.0.12.10)" />
+        <Dependent key="2" type="1" schemaName="adx_invitation" displayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="3" type="1" schemaName="incident" displayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="adx_invitation" displayName="Invitation" solution="MicrosoftCrmPortalBase (9.0.12.10)" />
+        <Dependent key="4" type="2" schemaName="adx_assigntoaccountyominame" parentSchemaName="adx_invitation" parentDisplayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="5" type="2" schemaName="msa_partneridyominame" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="adx_invitation" displayName="Invitation" solution="MicrosoftCrmPortalBase (9.0.12.10)" />
+        <Dependent key="6" type="2" schemaName="adx_assigntoaccountname" parentSchemaName="adx_invitation" parentDisplayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="7" type="60" displayName="Case Submission form" parentDisplayName="Case" id="{17668827-a5cb-4fe2-ac2c-0e7e2b6fc751}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="msdyn_surveyinvite" displayName="Survey Activity" solution="VoiceOfTheCustomer (9.0.1438.4)" />
+        <Dependent key="9" type="1" schemaName="account" displayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="msdyn_surveyresponse" displayName="Survey Response" solution="VoiceOfTheCustomer (9.0.1438.4)" />
+        <Dependent key="9" type="1" schemaName="account" displayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="1" schemaName="adx_badge" displayName="Badge" solution="MicrosoftBadges (9.0.6.1)" />
+        <Dependent key="9" type="1" schemaName="account" displayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="msdyn_responseoutcome" displayName="Response Outcome" solution="VoiceOfTheCustomer (9.0.1438.4)" />
+        <Dependent key="9" type="1" schemaName="account" displayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="1" schemaName="msevtmgt_eventvendor" displayName="Event Vendor" solution="MicrosoftDynamics_EventManagement (1.12.1006.0)" />
+        <Dependent key="9" type="1" schemaName="account" displayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="msevtmgt_sponsorship" displayName="Sponsorship" solution="MicrosoftDynamics_EventManagement (1.12.1006.0)" />
+        <Dependent key="9" type="1" schemaName="account" displayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="17" type="2" schemaName="customerid" displayName="Customer" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="adx_invitation" displayName="Invitation" solution="MicrosoftCrmPortalBase (9.0.12.10)" />
+        <Dependent key="18" type="10" schemaName="adx_invitation_assigntoaccount" displayName="adx_invitation_assigntoaccount" parentSchemaName="adx_invitation" parentDisplayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="19" type="2" schemaName="msa_partneridname" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="2" schemaName="customeridname" parentSchemaName="incident" parentDisplayName="Case" solution="Active" />
+        <Dependent key="17" type="2" schemaName="customerid" displayName="Customer" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="2" schemaName="customeridname" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="Active" />
+        <Dependent key="22" type="2" schemaName="customerid" displayName="Potential Customer" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="2" schemaName="new_registered" displayName="Registered?" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="2" schemaName="new_registered" displayName="Registered?" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" />
+        <Dependent key="25" type="26" schemaName="List Of Surveyors _portal" displayName="List Of Surveyors _portal" parentSchemaName="contact" parentDisplayName="Contact" id="{62932971-1c29-e911-a96c-000d3ab1ab19}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="2" schemaName="new_registered" displayName="Registered?" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" />
+        <Dependent key="26" type="59" schemaName="Registered? by First Name" displayName="Registered? by First Name" parentSchemaName="contact" parentDisplayName="Contact" id="{3f08d298-262a-e911-a977-000d3ab42be8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="2" schemaName="new_registered" displayName="Registered?" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" />
+        <Dependent key="27" type="26" schemaName="Location and Reg_only" displayName="Location and Reg_only" parentSchemaName="contact" parentDisplayName="Contact" id="{5851abc0-8836-e911-a96d-000d3ab1ab19}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="2" schemaName="prioritycode" displayName="Priority" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="30" type="2" schemaName="parentcustomerid" displayName="Company Name" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="2" schemaName="msa_partnerid" displayName="Partner" parentSchemaName="incident" parentDisplayName="Case" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="17" type="2" schemaName="customerid" displayName="Customer" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="2" schemaName="adx_assigntoaccount" displayName="Assign To Account" parentSchemaName="adx_invitation" parentDisplayName="Invitation" solution="MicrosoftCrmPortalBase (9.0.12.10)" />
+        <Dependent key="18" type="10" schemaName="adx_invitation_assigntoaccount" displayName="adx_invitation_assigntoaccount" parentSchemaName="adx_invitation" parentDisplayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="2" schemaName="msa_partnerid" displayName="Partner" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="22" type="2" schemaName="customerid" displayName="Potential Customer" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="account" parentDisplayName="Company" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="35" type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="2" schemaName="customerid" displayName="Potential Customer" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="22" type="2" schemaName="customerid" displayName="Potential Customer" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="account" parentDisplayName="Company" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="37" type="60" displayName="Information" parentDisplayName="Company" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="2" schemaName="defaultpricelevelid" displayName="Price List" parentSchemaName="account" parentDisplayName="Company" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent key="37" type="60" displayName="Information" parentDisplayName="Company" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="account" parentDisplayName="Company" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="37" type="60" displayName="Information" parentDisplayName="Company" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="2" schemaName="primarycontactid" displayName="Contact" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="2" schemaName="description" displayName="Description" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="42" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="2" schemaName="customerid" displayName="Customer" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="2" schemaName="responseby" displayName="First Response By" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="2" schemaName="resolveby" displayName="Resolve By" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="2" schemaName="title" displayName="Case Title" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="2" schemaName="subjectid" displayName="Subject" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="49" type="2" schemaName="contractid" displayName="Contract" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="2" schemaName="new_registered" displayName="Registered?" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" />
+        <Dependent key="50" type="26" schemaName="Location" displayName="Location" parentSchemaName="contact" parentDisplayName="Contact" id="{7e9063d8-d22d-e911-a970-000d3ab42969}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="2" schemaName="parentaccountidname" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="Active" />
+        <Dependent key="22" type="2" schemaName="customerid" displayName="Potential Customer" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="2" schemaName="customerid" displayName="Customer" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="7" type="60" displayName="Case Submission form" parentDisplayName="Case" id="{17668827-a5cb-4fe2-ac2c-0e7e2b6fc751}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="2" schemaName="description" displayName="Description" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="7" type="60" displayName="Case Submission form" parentDisplayName="Case" id="{17668827-a5cb-4fe2-ac2c-0e7e2b6fc751}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="2" schemaName="title" displayName="Case Title" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="7" type="60" displayName="Case Submission form" parentDisplayName="Case" id="{17668827-a5cb-4fe2-ac2c-0e7e2b6fc751}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="2" schemaName="parentaccountid" displayName="Account" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="22" type="2" schemaName="customerid" displayName="Potential Customer" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="2" schemaName="new_testid" displayName="TestID" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" />
+        <Dependent key="54" type="26" schemaName="Inactive Membership Status" displayName="Inactive Membership Status" parentSchemaName="new_membership" parentDisplayName="Membership" id="{3e9e4208-1340-e911-a96d-000d3ab1ab19}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="2" schemaName="customerid" displayName="Customer" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="17" type="2" schemaName="customerid" displayName="Customer" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="2" schemaName="msa_partnerid" displayName="Partner" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="33" type="2" schemaName="msa_partnerid" displayName="Partner" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="2" schemaName="msa_partnerid" displayName="Partner" parentSchemaName="incident" parentDisplayName="Case" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="31" type="2" schemaName="msa_partnerid" displayName="Partner" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="2" schemaName="adx_assigntoaccount" displayName="Assign To Account" parentSchemaName="adx_invitation" parentDisplayName="Invitation" solution="MicrosoftCrmPortalBase (9.0.12.10)" />
+        <Dependent key="32" type="2" schemaName="adx_assigntoaccount" displayName="Assign To Account" parentSchemaName="adx_invitation" parentDisplayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="29" type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="10" schemaName="msa_account_incident" displayName="msa_account_incident" parentSchemaName="incident" parentDisplayName="Case" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="17" type="2" schemaName="customerid" displayName="Customer" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="10" schemaName="adx_invitation_assigntoaccount" displayName="adx_invitation_assigntoaccount" parentSchemaName="adx_invitation" parentDisplayName="Invitation" solution="MicrosoftCrmPortalBase (9.0.12.10)" />
+        <Dependent key="18" type="10" schemaName="adx_invitation_assigntoaccount" displayName="adx_invitation_assigntoaccount" parentSchemaName="adx_invitation" parentDisplayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="10" schemaName="msa_partner_opportunity" displayName="msa_partner_opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="22" type="2" schemaName="customerid" displayName="Potential Customer" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="10" schemaName="msa_partner_opportunity" displayName="msa_partner_opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="57" type="2" schemaName="msa_partneridyominame" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="10" schemaName="msa_account_incident" displayName="msa_account_incident" parentSchemaName="incident" parentDisplayName="Case" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="19" type="2" schemaName="msa_partneridname" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="59" type="2" schemaName="msa_managingpartneridyominame" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="10" schemaName="msa_partner_opportunity" displayName="msa_partner_opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="60" type="2" schemaName="msa_partneridname" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="10" schemaName="msa_account_incident" displayName="msa_account_incident" parentSchemaName="incident" parentDisplayName="Case" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="5" type="2" schemaName="msa_partneridyominame" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Company" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="61" type="2" schemaName="msa_managingpartneridyominame" parentSchemaName="account" parentDisplayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="62" type="2" schemaName="msa_managingpartneridname" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="10" schemaName="adx_invitation_assigntoaccount" displayName="adx_invitation_assigntoaccount" parentSchemaName="adx_invitation" parentDisplayName="Invitation" solution="MicrosoftCrmPortalBase (9.0.12.10)" />
+        <Dependent key="4" type="2" schemaName="adx_assigntoaccountyominame" parentSchemaName="adx_invitation" parentDisplayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="10" schemaName="adx_invitation_assigntoaccount" displayName="adx_invitation_assigntoaccount" parentSchemaName="adx_invitation" parentDisplayName="Invitation" solution="MicrosoftCrmPortalBase (9.0.12.10)" />
+        <Dependent key="6" type="2" schemaName="adx_assigntoaccountname" parentSchemaName="adx_invitation" parentDisplayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Company" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="63" type="2" schemaName="msa_managingpartneridname" parentSchemaName="account" parentDisplayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="10" schemaName="msa_account_incident" displayName="msa_account_incident" parentSchemaName="incident" parentDisplayName="Case" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="55" type="10" schemaName="msa_account_incident" displayName="msa_account_incident" parentSchemaName="incident" parentDisplayName="Case" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="58" type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="10" schemaName="msa_partner_opportunity" displayName="msa_partner_opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="MicrosoftCrmPortalDependencies (9.0.12.10)" />
+        <Dependent key="56" type="10" schemaName="msa_partner_opportunity" displayName="msa_partner_opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="10" schemaName="gf_contact_gf_usersgiles_SearchforUser" displayName="gf_contact_gf_usersgiles_SearchforUser" parentSchemaName="gf_usersgiles" parentDisplayName="User (Giles)" solution="Active" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="26" schemaName="Contract Lookup View" displayName="Contract Lookup View" parentSchemaName="contract" parentDisplayName="Contract" solution="msdynce_Service (9.0.5.56)" id="{5e32a72f-2c87-4407-b8b4-a45559229206}" />
+        <Dependent key="16" type="60" displayName="Web Complaint Form" parentDisplayName="Case" id="{1260ca6e-1e72-4dfd-9e85-b7190079f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="26" schemaName="All Accounts" displayName="All Accounts" parentSchemaName="account" parentDisplayName="Company" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+        <Dependent key="67" type="60" displayName="Accounts Dashboard" parentDisplayName="Company" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="26" schemaName="Recent Opportunities" displayName="Recent Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{9c3f7ee8-eca7-e211-9fb6-00155dd0ea05}" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{00000000-0000-0000-00aa-000010003000}" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="26" schemaName="Recent Cases" displayName="Recent Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{ebd1d24a-eea7-e211-9fb6-00155dd0ea05}" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="59" schemaName="Case Mix (By Business Unit)" displayName="Case Mix (By Business Unit)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{f10375a6-4893-de11-97d4-00155da3b01e}" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="60" displayName="Accounts Dashboard" parentDisplayName="Company" solution="msdynce_Service (9.0.5.56)" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+        <Dependent key="67" type="60" displayName="Accounts Dashboard" parentDisplayName="Company" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="60" displayName="Information" parentDisplayName="Company" solution="msdynce_AppCommon (9.0.4.0066)" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+        <Dependent key="37" type="60" displayName="Information" parentDisplayName="Company" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.1902.3026)" />
+        <Dependent key="76" type="60" displayName="Information" parentDisplayName="CPD" id="{fa824541-3423-40d3-8efe-6c5fc8ba95fd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="70" displayName="CPD Completed Hours Security" solution="Active" id="{339236a0-2a3f-e911-a96e-000d3ab42b3b}" />
+        <Dependent key="77" type="70" displayName="CPD Completed Hours Security" id="{339236a0-2a3f-e911-a96e-000d3ab42b3b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="61" schemaName="msdyn_talkingpointsloader.js" displayName="msdyn_talkingpointsloader.js" solution="msdynce_Talkingpoints (9.0.1.70244)" />
+        <Dependent key="15" type="60" displayName="New Form" parentDisplayName="Contact" id="{e39e1942-7883-49b3-b3a0-9c8b5dc37651}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="61" schemaName="msdyn_talkingpointsloader.js" displayName="msdyn_talkingpointsloader.js" solution="msdynce_Talkingpoints (9.0.1.70244)" />
+        <Dependent key="79" type="60" displayName="Registration Simple Portal Form" parentDisplayName="Contact" id="{b213ab73-df3e-4227-b320-97a3a8984214}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="79" type="60" displayName="Registration Simple Portal Form" parentDisplayName="Contact" id="{b213ab73-df3e-4227-b320-97a3a8984214}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="37" type="60" displayName="Information" parentDisplayName="Company" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="37" type="60" displayName="Information" parentDisplayName="Company" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

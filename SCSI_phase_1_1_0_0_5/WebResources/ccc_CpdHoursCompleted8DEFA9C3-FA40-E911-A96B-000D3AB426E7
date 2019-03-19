@@ -1,0 +1,14 @@
+
+$(document).ready(function() {
+ 
+var loggedinuserRole = {{ user.role }};
+
+if(loggedinuserRole.indexOf("Lecturer Web Role") > -1)
+
+{
+
+  $("#ccc_HoursCompleted").closest("tr").hide();
+
+}
+
+});
